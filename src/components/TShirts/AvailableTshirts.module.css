@@ -1,0 +1,39 @@
+.Medicines {
+  max-width: 60rem;
+  width: 100%;
+  margin: 2rem auto;
+  animation: Medicines-appear 1s ease-out forwards;
+}
+
+.Medicines ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Define vibrant green color */
+:root {
+  --vibrant-green: #00ff00; /* Adjust shade as needed */
+}
+
+/* Update colors with vibrant green */
+.Medicines {
+  color: var(--vibrant-green); /* Text color */
+}
+
+/* Example: Update background color with vibrant green */
+.Medicines ul {
+  background-color: var(--vibrant-green); /* Background color for ul */
+}
+
+@keyframes Medicines-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,70 @@
+.cart-Tshirt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #4caf50;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  transition: background-color 0.3s ease;
+}
+
+.cart-Tshirt:hover {
+  background-color: #f0f8ff;
+}
+
+.cart-Tshirt h2 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.summary {
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.amount {
+  font-weight: bold;
+  border: 1px solid #ddd;
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  color: #333;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .actions {
+    flex-direction: row;
+  }
+}
+
+.cart-Tshirt button {
+  font: inherit;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #4caf50;
+  border: 1px solid #4caf50;
+  width: 3rem;
+  text-align: center;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 0.25rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cart-Tshirt button:hover,
+.cart-Tshirt button:active {
+  background-color: #4caf50;
+  color: white;
+}

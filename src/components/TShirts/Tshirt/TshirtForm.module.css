@@ -1,0 +1,22 @@
+.form {
+  text-align: right;
+}
+
+.form button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #4CAF50; /* Changed to a vibrant green */
+  border: 1px solid #388E3C; /* Darker green for the border */
+  color: white;
+  padding: 0.5rem 2rem; /* Increased padding for better touch target */
+  border-radius: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+
+.form button:hover,
+.form button:active {
+  background-color: #45A049; /* Slightly lighter shade for hover */
+  border-color: #2E7D32; /* Darker green for the border on hover */
+  transform: scale(1.05); /* Slight scaling on hover */
+}

@@ -1,0 +1,56 @@
+.summary {
+  text-align: center;
+  max-width: 35rem;
+  width: 35%;
+  margin: auto;
+  margin-top: 100px;
+  position: relative;
+  background-color: #4CAF50; /* Changed to a vibrant green */
+  color: white;
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease;
+}
+
+.summary:hover {
+  background-color: #45A049; /* Slightly lighter shade on hover */
+}
+
+.summary button {
+  padding: 10px 15px; /* Increased padding for better touch target */
+  font-size: 17px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #388E3C; /* Changed to a darker green */
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 3px #666; /* Darker shadow */
+  margin: 5%;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.summary button:hover {
+  background-color: #66BB6A; /* Lighter green for hover */
+}
+
+.summary button:active {
+  background-color: #2E7D32; /* Even darker green for active state */
+  box-shadow: 0 1px #333; /* Darker shadow for active state */
+  transform: translateY(2px); /* Slightly more noticeable movement */
+}
+
+.summary input {
+  width: 100%;
+  padding: 10px; /* Increased padding for better usability */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.summary label {
+  padding: 7px 7px 7px 0;
+  display: inline-block;
+}
